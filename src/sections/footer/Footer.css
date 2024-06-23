@@ -1,0 +1,25 @@
+/* Start Footer */
+.footer {
+    background-color: var(--main-color);
+
+}
+
+.footer .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .footer-box a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer .footer-box a:hover {
+    color: var(--second-color);
+}
+
+/* End Footer */

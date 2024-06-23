@@ -1,0 +1,11 @@
+export { default as Navbar } from "./navbar/Navbar";
+export { default as Home } from "./home/Home";
+export { default as Hero } from "./hero/Hero";
+export { default as About } from "./about-us/About";
+export { default as Services } from "./services/Services";
+export { default as Footer } from "./footer/Footer";
+export { default as Copyright } from "./copyright/Copyright";
+export { default as Gallery } from "./Gallery/Gallery";
+export { default as SignupSignin } from "./signup-signin/SignupSignin";
+export { default as Slider } from "./Slider/Slider";
+export { default as ShoppingCart } from "./Gallery/shoppingCart/ShoppingCart";

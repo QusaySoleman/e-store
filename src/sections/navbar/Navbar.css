@@ -1,0 +1,57 @@
+/*Start Navbar */
+.navbar {
+    background-color: var(--second-color);
+    color: #fff;
+    padding: 20px;
+
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar li {
+    margin-right: 10px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar li .cart-icon {
+    color: #fff;
+    font-size: 18px;
+}
+
+.navbar li .cart-icon:hover {
+    color: #B68D40;
+    cursor: pointer;
+}
+
+.navbar li .nav-link {
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar li .nav-link:hover {
+    color: #B68D40;
+}
+
+
+
+.counter {
+    display: inline-block;
+    background-color: #eee;
+    position: relative;
+    top: -7px;
+    right: 4px;
+    padding: 2px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+/*End Navbar */

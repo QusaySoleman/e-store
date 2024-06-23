@@ -1,0 +1,109 @@
+.form-container {
+    background-image: url(../../Assets/images/Coffee/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-container .background-opacity {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    padding: 10px;
+}
+
+.signin-form {
+    background-color: #eeeeee7a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 500px;
+    margin: 40px auto 30px;
+    border-radius: 20px;
+
+}
+
+.signin-form .signin-header {
+    font-size: 48px;
+    margin: 25px 0 10px 0;
+    color: rgb(68, 0, 255);
+    font-weight: 700;
+    font-style: italic;
+}
+
+.signin-form .inputs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    border: 2px solid rgba(68, 0, 255, 0.863);
+    border-radius: 10px;
+    /* height: 250px; */
+}
+
+.signin-form .inputs-container input {
+    margin: 10px 5px;
+    width: 100%;
+    line-height: 2;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.281);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.signin-form .inputs-container input::placeholder {
+    color: rgb(1, 2, 53);
+    font-size: 18px;
+
+
+}
+
+.signin-form .buttons {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px
+}
+
+.forget-password,
+.have-account {
+    color: blue;
+    cursor: pointer;
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.forget-password:hover span {
+    color: #fff;
+    transition: .2s;
+
+}
+
+.signin-form .buttons button {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    color: #000;
+    font-weight: bold;
+}
+
+.signin-form .buttons button:hover {
+    transition: .2s;
+    background-color: rgba(0, 0, 255, 0.685);
+}
+
+.active-btn {
+    background-color: rgba(0, 0, 255, 0.336);
+}

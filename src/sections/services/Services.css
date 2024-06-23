@@ -1,0 +1,45 @@
+/* Start Services */
+.services {
+    min-height: 80vh;
+    background-color: #eeee;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 50px;
+}
+
+.services-box {
+    background-color: var(--main-color);
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 10px;
+    transition: .3s ease all;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.services-box:hover {
+    transform: translateY(5px);
+    cursor: pointer;
+}
+
+.services-box-img img {
+    width: 25px;
+    height: 25px;
+}
+
+/* End Services */

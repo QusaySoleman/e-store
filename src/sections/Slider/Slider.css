@@ -1,0 +1,20 @@
+.swiper-container {
+    height: 70vh;
+    padding: 45px 0;
+    background: linear-gradient(rgba(0, 47, 255, 0.8), #000000, rgba(23, 0, 128, 0.5));
+    cursor: pointer;
+    padding: 60px 0;
+}
+
+.swiper-container img {
+    width: 400px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10%;
+    transform: rotate(-15deg);
+    opacity: .9;
+}
+
+/* Questions  */
+/* how to control images in md sm screen 
+make scrolling auto */

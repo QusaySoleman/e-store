@@ -1,0 +1,27 @@
+/*Start About Us */
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 45px;
+    padding: 10px;
+}
+
+.about-us .container {
+    height: 100%;
+}
+
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.about-us-img .about-img {
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+/*End About Us */

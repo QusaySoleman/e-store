@@ -1,0 +1,13 @@
+.copyright {
+    height: auto;
+}
+
+.copyright .container {
+    padding: 10px;
+    color: #000;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
