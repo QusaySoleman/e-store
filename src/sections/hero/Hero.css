@@ -1,3 +1,9 @@
+.cover-all-hero{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.342);
+}
 /*Start Hero */
 .hero {
     background-image: url(../../Assets/images/banner-bg.png);

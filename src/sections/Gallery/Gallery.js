@@ -1,6 +1,8 @@
 import React from "react";
 import "./Gallery.css";
-import gallery from "../../data/data.json";
+// import gallery from "../../data/data.json";
+import gallery from "./GalleryData/galleryData";
+
 import { useDispatch } from "react-redux";
 import { addToCart } from "./redux/cartSlice";
 import { useNavigate } from "react-router-dom";
@@ -11,7 +13,7 @@ const Gallery = () => {
   const handleAddToCart = (product) => {
     dispatch(addToCart(product));
     //new
-    dispatch(calculateTotal(product))
+    dispatch(calculateTotal(product));
     let path = `/shoppingCart`;
     route(path);
   };
@@ -26,23 +28,25 @@ const Gallery = () => {
             velit nesciunt odio dolorum illum dolor aliquid optio dignissimos
           </p>
           <div className="products-content" id="products-content">
-            {gallery.gallery.map((product) => {
-              return (
-                <div className="product-card" key={product.id}>
-                  <img src={product.image} alt="product" />
-                  <p>Name : {product.name}</p>
-                  <p>Price : {product.price}</p>
-                  <button
-                    className="btn btn-dark"
-                    onClick={() => {
-                      handleAddToCart(product);
-                    }}
-                  >
-                    Add to cart
-                  </button>
-                </div>
-              );
-            })}
+            {/* //styling */}
+            {gallery &&
+              gallery.map((product) => {
+                return (
+                  <div className="product-card" key={product.id}>
+                    <img src={product.url} alt="product img"className="img-fluid" />
+                    <p>Name : {product.name}</p>
+                    <p>Price : {product.price}</p>
+                    <button
+                      className="btn btn-dark"
+                      onClick={() => {
+                        handleAddToCart(product);
+                      }}
+                    >
+                      Add to cart
+                    </button>
+                  </div>
+                );
+              })}
           </div>
         </div>
       </div>

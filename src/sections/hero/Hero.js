@@ -3,6 +3,7 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <>
+    {/* <span className="cover-all-hero"></span> */}
       <div className="hero" id="hero">
         <div className="container">
           <h2 className="hero-h2">
@@ -18,6 +19,7 @@ const Hero = () => {
           <button className="btn btn-dark">Learn More</button>
         </div>
       </div>
+ 
     </>
   );
 };

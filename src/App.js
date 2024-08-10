@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+//import test
+//End import test
 import {
   Navbar,
   Home,
@@ -23,6 +24,7 @@ function App() {
           <Route path="/shoppingCart" element={<ShoppingCart />} />
         </Routes>
         <Copyright />
+        
       </BrowserRouter>
     </div>
   );

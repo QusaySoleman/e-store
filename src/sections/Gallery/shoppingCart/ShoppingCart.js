@@ -47,7 +47,7 @@ function ShoppingCart() {
                 {cart.cartItems &&
                   cart.cartItems.map((cartItem) => (
                     <div className="shopping-cart-product" key={cartItem.id}>
-                      <img src={cartItem.image} alt="product-img" />
+                      <img src={cartItem.url} alt="product-img" className="img-fluid"/>
                       <button
                         className="button"
                         onClick={() => {

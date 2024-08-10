@@ -4,12 +4,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { images } from "./SliderData";
+import images from './SliderData'
 import "./Slider.css";
+
 function Slider() {
+ 
   return (
     <>
-    {/* Swiper */}
+      {/* Swiper */}
       <Swiper
         modules={[Pagination]}
         spaceBetween={25}
@@ -19,8 +21,8 @@ function Slider() {
       >
         {images &&
           images.map((image) => (
-            <SwiperSlide key={image}>
-              <img src={image} alt="cofee" />
+            <SwiperSlide key={image.id}>
+              <img src={image.url} alt="cofee" />
             </SwiperSlide>
           ))}
       </Swiper>
