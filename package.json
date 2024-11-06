@@ -1,6 +1,6 @@
 {
+  "homepage": "https://QusaySoleman/coffee_store",
   "name": "coffee_store",
-  "homepage": "https://QusaySoleman.github.io/Coffee-Store",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

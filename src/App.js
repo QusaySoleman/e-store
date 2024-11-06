@@ -15,6 +15,8 @@ import {
 function App() {
   return (
     <div>
+      {/* Add Repo name --> coffee_store */}
+      {/* basename="/repo name" */}
       <BrowserRouter>
         <Navbar />
         <Routes>
