@@ -24,7 +24,6 @@ function App() {
           <Route path="/shoppingCart" element={<ShoppingCart />} />
         </Routes>
         <Copyright />
-        
       </BrowserRouter>
     </div>
   );

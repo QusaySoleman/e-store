@@ -5,12 +5,12 @@ import { useSelector } from "react-redux";
 
 const Navbar = () => {
   const cart = useSelector((state) => state.cart);
-  let numberOfDifferentProd=cart.cartItems.length;
+  let numberOfDifferentProd = cart.cartItems.length;
   return (
     <div>
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/">
+          <NavLink className="navbar-brand" to="/coffee_store">
             Coffee Shop
           </NavLink>
 
