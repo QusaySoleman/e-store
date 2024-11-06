@@ -10,7 +10,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/coffee_store">
+          <NavLink className="navbar-brand" to="/">
             Coffee Shop
           </NavLink>
 
