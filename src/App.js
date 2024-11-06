@@ -16,8 +16,8 @@ function App() {
   return (
     <div>
       {/* Add Repo name --> coffee_store */}
-      {/* basename="/repo name" */}
-      <BrowserRouter>
+      {/* basename="/coffee_store" */}
+      <BrowserRouter basename="/coffee_store">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
