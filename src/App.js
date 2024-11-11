@@ -19,7 +19,7 @@ function App() {
       {/* basename="/coffee_store" */}
       <BrowserRouter>
         <Navbar />
-        <Routes basename="/coffee_store">
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/Signin" element={<SignupSignin />} />
