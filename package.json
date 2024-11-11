@@ -1,9 +1,10 @@
 {
+  "homepage":"http://QusaySoleman.github.io/e-store",
   "name": "coffee_store",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "homepage":"http://QusaySoleman.github.io/e-store",
+  
     "@reduxjs/toolkit": "^2.2.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
