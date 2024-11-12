@@ -3,10 +3,12 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <>
-    {/* <span className="cover-all-hero"></span> */}
+    
       <div className="hero" id="hero">
-        <div className="container">
-          <h2 className="hero-h2">
+      
+        <div className="container ">
+        <div className="cover-all-hero">
+        <h2 className="hero-h2">
             Welcome to our <br />
             <span className="text-uppercase">coffee Shop</span>
           </h2>
@@ -16,7 +18,11 @@ const Hero = () => {
             but the majority have suffered alteration in some form, by injected
             humour,{" "}
           </p>
-          <button className="btn btn-dark">Learn More</button>
+          <button className="btn btn-light">Learn More</button>
+        </div>
+     
+          
+        
         </div>
       </div>
  

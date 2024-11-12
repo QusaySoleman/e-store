@@ -13,25 +13,24 @@ body {
 
 
 /* Start Products */
+
 .prouducts {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    /* background-image: url(../../Assets/images/gallery-bg.png); */
+
     background: linear-gradient(rgba(1, 1, 1, 0.87), rgb(136, 24, 24), rgba(1, 1, 1, 0.911)), url(../../Assets/images/gallery-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: #fff;
     font-weight: 600;
+    /* display: flex;
+    flex-direction: column; */
 }
 
-.products-content {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    padding: 45px;
-    margin-top: 45px;
-    width: 100%;
+
+.box {
+    min-height: 400px;
+    margin: 10px 0;
+
 }
 
 .product-card {
@@ -39,11 +38,12 @@ body {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
-    margin: 10px;
+    /* margin: 25px; */
     transition: 1s ease all;
+    height: 100%;
 }
 
 .product-card:hover {
@@ -56,8 +56,8 @@ body {
 
 .product-card img {
     border-radius: 10px;
-    width: 175px;
-    height: 200px;
+    /* width: 175px; */
+    max-height: 300px;
     object-fit: fill;
 }
 

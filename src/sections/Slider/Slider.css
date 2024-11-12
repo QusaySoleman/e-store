@@ -7,14 +7,14 @@
 }
 
 .swiper-container img {
-    width: 400px;
+    width: 500px;
     height: 100%;
     object-fit: cover;
     border-radius: 10%;
-    transform: rotate(-15deg);
-    opacity: .9;
+    transform: rotate(-5deg);
 }
-
-/* Questions  */
-/* how to control images in md sm screen 
-make scrolling auto */
+@media (max-width:350px) {
+    .swiper-container img{
+        height: 60%;
+    }
+}

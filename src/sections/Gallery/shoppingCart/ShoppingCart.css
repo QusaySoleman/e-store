@@ -41,8 +41,13 @@
     padding: 30px 15px;
     background-color: #eee;
     border-radius: 10px;
-}
 
+}
+@media (max-width:600px){
+    .shopping-cart-product{
+        flex-direction: column;
+    }
+}
 .shopping-cart p {
     margin: 0;
 }

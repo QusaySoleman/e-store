@@ -1,9 +1,22 @@
-.cover-all-hero{
-    height: 100vh;
+.cover-all-hero {
+    padding: 25px 30px;
+    border-radius: 15px;
+    min-height: 35rem;
     width: 100%;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.342);
+    position: relative;
+    background-color: rgba(10, 6, 27, 0.719);
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
 }
+
+.cover-all-hero button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
 /*Start Hero */
 .hero {
     background-image: url(../../Assets/images/banner-bg.png);

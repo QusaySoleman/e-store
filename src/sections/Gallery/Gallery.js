@@ -21,18 +21,19 @@ const Gallery = () => {
     <>
       <div className="prouducts pt-5 text-center">
         <h2 className="text-uppercase">Our Gallery</h2>
-        <div className="container-fluid">
+        <div className="container ">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum velit
             nesciunt odio dolorum illum damet consectetur adipisicing elit. Eum
             velit nesciunt odio dolorum illum dolor aliquid optio dignissimos
           </p>
-          <div className="products-content" id="products-content">
+          <div className="products-content row" id="products-content">
             {/* //styling */}
             {gallery &&
               gallery.map((product) => {
                 return (
-                  <div className="product-card" key={product.id}>
+               <div className="col-md-6 col-sm-12 box">
+                   <div className="product-card " key={product.id}>
                     <img src={product.url} alt="product img"className="img-fluid" />
                     <p>Name : {product.name}</p>
                     <p>Price : {product.price}</p>
@@ -45,6 +46,7 @@ const Gallery = () => {
                       Add to cart
                     </button>
                   </div>
+               </div>
                 );
               })}
           </div>

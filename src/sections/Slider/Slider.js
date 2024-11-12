@@ -15,14 +15,14 @@ function Slider() {
       <Swiper
         modules={[Pagination]}
         spaceBetween={25}
-        slidesPerView={4}
+        slidesPerView={2}
         pagination={{ clickable: true }}
         className="swiper-container"
       >
         {images &&
           images.map((image) => (
             <SwiperSlide key={image.id}>
-              <img src={image.url} alt="cofee" />
+              <img src={image.url} alt="cofee" className="img-fluid slider-img"/>
             </SwiperSlide>
           ))}
       </Swiper>
