@@ -17,7 +17,7 @@ function App() {
     <div>
       {/* Add Repo name --> coffee_store */}
       {/* basename="/coffee_store" */}
-      <BrowserRouter>
+      <BrowserRouter basename="/e-store">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
