@@ -15,8 +15,7 @@ import {
 function App() {
   return (
     <div>
-      {/* Add Repo name --> coffee_store */}
-      {/* basename="/coffee_store" */}
+      {/* BrowserRouter=Switch in old version */}
       <BrowserRouter basename="/e-store">
         <Navbar />
         <Routes>

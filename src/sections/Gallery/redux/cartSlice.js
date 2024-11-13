@@ -66,7 +66,7 @@ const cartSlice = createSlice({
         "shoppingCartProducts",
         JSON.stringify(state.cartItems)
       );
-      window.location.pathname = "/shoppingCart";
+      window.location.reload()
     },
     calculateTotal(state, action) {
       const existedProduct = state.cartItems.findIndex((prod) => {
